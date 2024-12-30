@@ -1,5 +1,5 @@
 // 1
-const button = document.getElementById("talkingButton");
+const button = document.getElementById("talkingButto");
 
 button.addEventListener("click", () => {
     // Create a new speech synthesis utterance
