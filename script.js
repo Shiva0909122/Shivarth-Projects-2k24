@@ -1,5 +1,5 @@
 // 1
-const button = document.getElementById("talkingButto");
+const button = document.getElementById("talkingButton");
 
 button.addEventListener("click", () => {
     // Create a new speech synthesis utterance
@@ -7,9 +7,9 @@ button.addEventListener("click", () => {
 
     // Set the voice and language
     speech.lang = "en-US";
-    speech.volume = 1;  // Volume: 0 to 1
+    speech.volume = 0;  // Volume: 0 to 1
     speech.rate = 1;    // Speed: 0.1 to 10
-    speech.pitch = 2;   // Pitch: 0 to 2
+    speech.pitch = 1;   // Pitch: 0 to 2
 
     // Speak the text
     window.speechSynthesis.speak(speech);
